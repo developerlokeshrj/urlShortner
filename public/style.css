@@ -1,0 +1,40 @@
+#mainSection {
+    background-color: skyblue;
+    height: 100vh;
+    padding: 100px;
+}
+
+.box {
+    width: 525px;
+    margin: auto;
+   
+    padding: 50px;
+    border: 1px solid white;
+    text-align: center;
+    align-items: center;
+   
+}
+input{
+    margin: 10px;
+}
+
+.short-url {
+    height: 9px;
+    margin: 20px;
+}
+
+.short-url a {
+    color: red;
+    font-size: 21px;
+}
+input#url {
+    width: -webkit-fill-available;
+    padding: 10px;
+}
+input.submit {
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 600;
+    background: aqua;
+}
